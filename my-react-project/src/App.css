@@ -1,0 +1,62 @@
+/* src/App.css */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 10px;
+  background: #fff;
+} 
+
+.card img {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.card p {
+  margin: 5px 0; 
+  font-size: 1em;
+  color: grey; 
+}
+
+.card h3 {
+  margin: 10px 0; 
+  font-size: 1.5em;
+  font-weight: bold; 
+}
+
+.card .card-button {
+  display: inline-block; 
+  margin: 10px 0; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  background-color: #84dbe0; 
+  color: #000; 
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+.header-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100px; 
+}
+
+.header-title {
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+}
